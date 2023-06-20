@@ -8,7 +8,7 @@ stages {
 
 stage ('compilation process') {
 steps {
-sh "mvn comiple"
+sh "mvn compile"
 }
 }
 
